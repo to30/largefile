@@ -1,0 +1,5 @@
+#xlsはdiff対象外。改行コード自動変換も行わない
+*.xls -diff -text
+
+#検証用
+*.txt -diff -text
