@@ -5,7 +5,7 @@
 #*.xlsx binary
 
 *.xlsx binary -diff -text
-
+*.any binary -diff -text
 
 #検証用
 *.txt -diff -text
