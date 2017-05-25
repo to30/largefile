@@ -1,5 +1,11 @@
 #xlsはdiff対象外。改行コード自動変換も行わない
-*.xls -diff -text
+#*.xls -diff -text
+
+#上と同じ意味 (binary = -diff -text)
+#*.xlsx binary
+
+*.xlsx binary -diff -text
+
 
 #検証用
 *.txt -diff -text
